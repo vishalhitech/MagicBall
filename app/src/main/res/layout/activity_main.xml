@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -27,7 +28,7 @@
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/askButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -37,4 +38,13 @@
         android:text="@string/button_name"
         android:textSize="18sp"
         tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/answerImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/home"
+        tools:ignore="ContentDescription" />
 </RelativeLayout>
