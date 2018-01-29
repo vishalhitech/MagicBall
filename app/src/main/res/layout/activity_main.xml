@@ -7,7 +7,7 @@
     android:background="@android:color/holo_blue_light"
     android:paddingBottom="25dp"
     android:paddingTop="25dp"
-    tools:context="com.example.hp.magicball.MainActivity">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -19,7 +19,7 @@
         android:background="@android:color/holo_blue_dark"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:text="Make every day Decision Easier?"
+        android:text="@string/headline"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
@@ -28,14 +28,13 @@
 
     <Button
         android:id="@+id/button"
-        style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="ASK"
+        android:text="@string/button_name"
         android:textSize="18sp"
         tools:ignore="HardcodedText" />
 </RelativeLayout>
