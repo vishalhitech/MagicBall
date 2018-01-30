@@ -42,11 +42,11 @@
     <ImageView
         android:id="@+id/answerImage"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        app:srcCompat="@drawable/home"
+        app:srcCompat="@drawable/img6"
         tools:ignore="ContentDescription" />
 </RelativeLayout>
